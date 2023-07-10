@@ -11,96 +11,92 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a class="navbar-link" href="#home">Home</a>
-            <a class="navbar-link" href="#product">Product</a>
-            <a class="navbar-link" href="#pricing">Pricing</a>
-            <a class="navbar-link" href="#about">About</a>
-            <a class="navbar-link" href="#contact">Contact</a>
+            <div class="navigation-links">
+                <a class="navbar-link" href="#home">Home</a>
+                <a class="navbar-link" href="#product">Product</a>
+                <a class="navbar-link" href="#pricing">Pricing</a>
+                <a class="navbar-link" href="#about">About</a>
+                <a class="navbar-link" href="#contact">Contact</a>
+            </div>
+
+            <img src="img/logo.png" alt="logo" class="header-logo">
+
+            <div class="header-social">
+                <a class="header-social-link" href="https://twitter.com/"><img src="img/ant-design_twitter-outlined.png"
+                        alt="twitter"></a>
+                <a class="header-social-link" href="https://www.facebook.com/"><img
+                        src="img/ant-design_facebook-filled.png" alt="facebook"></a>
+                <a class="header-social-link" href="https://ua.linkedin.com/"><img
+                        src="img/ant-design_linkedin-filled.png" alt="linkedin"></a>
+            </div>
         </nav>
 
-        <img src="img/logo.png" alt="logo">
-
-        <a href="https://twitter.com/"><img src="img/ant-design_twitter-outlined.png" alt="twitter"></a>
-        <a href="https://www.facebook.com/"><img src="img/ant-design_facebook-filled.png" alt="facebook"></a>
-        <a href="https://ua.linkedin.com/"><img src="img/ant-design_linkedin-filled.png" alt="linkedin"></a>
-            
-        </nav>
-
-        
-
-        <h1>The best products start with Figma</h1>
-
-        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-
-        <button class="main_button" href="">Try For Free</button>
-
-
+        <h1 class="header-h1">The best products start with Figma</h1>
+        <h4 class="header-h4">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <a class="main-link header-main-link" href="#">Try For Free</a>
     </header>
 
-    <main></main>
-
+    <main>
     <section class="Features">
-
         <h2>Features</h2>
-
         <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <div class="items_row">
+            <div class="item_card drawing-card">
+                <img src="img/mdi_drawing.png" alt="drawing" class="card-img">
+                <h3 class="item_card-title">OpenType features Variable fonts</h3>
+                <p class="item_card-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
 
-        <div class="items cards">
+            <div class="item_card draw-card">
+                <img src="img/mdi_draw.png" alt="draw" class="card-img">
+                <h3 class="item_card-title">Design with real data</h3>
+                <p class="item_card-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
 
-            <article class="cards__item">
-                <img src="img/mdi_drawing.png" alt="drawing" class="article-img">
-                <h3>OpenType features Variable fonts</h3>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-            </article>
-
-            <article class="cards__item">
-                <img src="img/mdi_draw.png" alt="draw" class="article-img">
-                <h3>Design with real data</h3>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-            </article>
-
-            <article class="cards__item">
-                <img src="img/mdi_brush.png" alt="brush" class="article-img">
-                <h3>Fastest way to take action</h3>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-            </article>
+            <div class="item_card brush-card">
+                <img src="img/mdi_brush.png" alt="brush" class="card-img">
+                <h3 class="item_card-title">Fastest way to take action</h3>
+                <p class="item_card-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
 
         </div>
-
         <div class="video_screen">
-            <img src="img/screen.png" alt="screen">
-            <img src="img/play button.png" alt="play button">
+            <img src="img/screen.png" alt="screen" class="video_screen-main-img">
+            <img src="img/play button.png" alt="play button" class="video_screen-mmoving-img">
         </div>
-
     </section>
 
     <section class="hero_light_4">
-        <div>
-            <H2>Fastest way to organize</H2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            <button>Try For Free</button>
+        <div class="hero_light_4-text-column">
+            <h2 class="hero_light_4-title">Fastest way to organize</h2>
+            <p class="hero_light_4-description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <a class="main-link hero_light_4-main-link" href="#">Try For Free</a>
         </div>
-
         <div>
-            <img src="img/Macbook Pro.png" alt="Macbook Pro">
+            <img src="img/Macbook Pro.png" alt="Macbook Pro" class="hero_light_4-img">
         </div>
     </section>
 
-    <section class="desctop_leght_CTA_4">
-        <div>
-            <img src="img/undraw_newsletter_vovu.png" alt="newsletter">
+    <section class="subscribe-section">
+        <div class="class="subscribe-row"">
+        <div class="subscribe-img-box">
+            <img src="img/undraw_newsletter_vovu.png" alt="newsletter" class="subscribe-img">
         </div>
 
-        <div>
-            <span>At your fingertips</span>
-            <h2>Lightning fast prototyping </h2>
-            <span>Subscribe to our Newsletter</span>
-            <span>Available exclusivery on Figmaland</span>
-
-            <div class="subscribe">
-                <input type="email" placeholder="Your Email">
-                <button>Subscribe</button>
+        <div class="subscribe-box">
+           <div class="subscribe-text">
+               <h3 class="subscribe-link-sub-title">At your fingertips</h3>
+               <h2 class="subscribe-link-title">Lightning fast prototyping </h2>
+           </div>
+           <div class="subscribe-action">
+               <span class="subscribe-link-action">Subscribe to our Newsletter</span>
+               <span class="subscribe-link-description">Available exclusivery on Figmaland</span>
+            <form action="https://formspree.io/f/xbjvjkzp" method="post">
+                <input type="email" placeholder="Your Email" name="email" required>
+                <input type="submit" value="Subscribe">
+            </form>
             </div>
+        </div>
         </div>
     </section>
 
@@ -143,7 +139,6 @@
                 <p>Client Name</p>
                 <img src="img/amazon.png" alt="amazon_logo">
             </div>
-
         </div>
     </section>
     </main>

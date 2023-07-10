@@ -12,6 +12,8 @@
 :root {
     scroll-behavior: smooth;
     --header-and-footer-text-color: #FFF;
+    --primary-color: #2091F9;
+    --text-color: #252b42;
 }
 
 img {
@@ -23,14 +25,100 @@ body {
     font-family: 'graphikgompact-regular-trial';
 }
 
-.header {
-    background-image: url("../img/header/background.png";
+a {
+    text-decoration: none;
 }
 
-.navbar-link{
+.header {
+    background-image: url('../img/header-background.png');
+}
+
+.navbar-link {
     color: var(--header-and-footer-text-color);
     font-size: 15px;
     font-size: 15px;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
+}
+
+.header-logo {
+    width: 186px;
+    height: 58px;
+}
+
+.header-social-link {
+    display: block;
+    width: 40px;
+}
+
+.header-h1 {
+    color: var(--header-and-footer-text-color);
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0.2px;
+}
+
+.header-h4 {
+    color: var(--header-and-footer-text-color);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.main-link {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--header-and-footer-text-color);
+    padding: 16px 62px;
+    border-radius: 35px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+}
+
+h3{
+    font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.1px;
+color: var(--text-color);
+}
+
+.card-img{
+    width: 61px;
+}
+
+.item_card-description{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+color: var(--text-color);
+}
+
+.video_screen-mmoving-img{
+    width: 186px;
+}
+
+.hero_light_4-img{
+    width: 624px;
+}
+
+.subscribe-img{
+    width: 678px;
 }
