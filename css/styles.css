@@ -43,13 +43,32 @@ a {
         background-position: 50%;
     }
 
-        .header-h1{
+    .header-h1 {
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
         line-height: 55px;
         letter-spacing: 0.2px;
-    }    
+    }
+
+    .items_row {
+        flex-direction: column;
+    }
+
+    .features-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero_light_4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_light_4-img {
+        
+    }
 }
 
 .header {
@@ -84,13 +103,6 @@ a {
 .header-social-link {
     display: block;
     width: 40px;
-}
-
-@media (max-width: 420px) {
-    .header-social {
-        display: none;
-    }
-    
 }
 
 .header-text {
@@ -155,18 +167,18 @@ h3 {
     width: 61px;
 }
 
-.features-text{        
+.features-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.items_row{
+.items_row {
     display: flex;
     flex-direction: row;
 }
 
-.item_card{
+.item_card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,37 +189,34 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    color: var(--text-color); 
+    color: var(--text-color);
+    text-align: center;
 }
 
-@media (max-width: 420px) {
-        .header-h1{
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 55px;
-        letter-spacing: 0.2px;
-    }    
-
-    .features-content{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    
-    .video_screen{
-        display: none;
-    }
-    
+.item_card-title {
+    text-align: center;
 }
 
-
-.video_screen-mmoving-img {
+.video_screen-moving-img {
     width: 186px;
+}
+
+.hero_light_4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero_light_4-text-column {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero_light_4-img {
     width: 624px;
 }
+
+
 
 .subscribe-img {
     width: 678px;
@@ -234,7 +243,7 @@ input::placeholder {
     padding: 19px 38px;
 }
 
-.partners-description{    
+.partners-description {
     display: flex;
     flex-direction: column;
     align-items: center;
