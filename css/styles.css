@@ -167,3 +167,127 @@ input::placeholder {
     letter-spacing: 0.1px;
     color: var(--second-text-color);
 }
+
+.testimonials-logo {
+    width: 150px;
+}
+
+.testimonials-description {
+    color: var(--second-text-color);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.users_photo {
+    width: 50px;
+}
+
+.user-description {
+    color: var(--second-text-color);
+    font-family: Graphik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+}
+
+.users-job {
+    color: var(--second-text-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.testimonials-link {
+    color: var(--header-and-footer-text-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    padding: 16px 47px;
+    border-radius: 35px;
+    background-color: var(--primary-color);
+}
+
+.pricing-h2,
+.pricing-description{
+    color: var(--header-and-footer-text-color);
+}
+
+.pricing-description {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.free-pricing,
+.business-pricing {
+    background-color: var(--header-and-footer-text-color);
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    color: var(--text-color);
+}
+
+.pricing-description {
+    font-size: 16px;
+    color: var(--second-text-color);
+}
+
+.price-number {
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0.2px;
+}
+
+.currency {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.periodicity {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+}
+
+.pricing-feature {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.order-link {
+    padding: 18px 38px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    border-radius: 35px;
+    background-color: var(--primary-color);
+}
+
+.free-order-link, .business-order-link {
+    color: var(--header-and-footer-text-color);
+}
+
+.standard-pricing{
+    padding: 83px 40px;
+    background-color: var(--primary-color);
+}
+
+.standard-order-link{
+    background-color: var(--header-and-footer-text-color);
+    color: var(--primary-color);
+}
