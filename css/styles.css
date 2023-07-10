@@ -213,6 +213,10 @@ input::placeholder {
     background-color: var(--primary-color);
 }
 
+.pricing{
+    background-color: #374754;
+}
+
 .pricing-h2,
 .pricing-description{
     color: var(--header-and-footer-text-color);
@@ -291,3 +295,9 @@ input::placeholder {
     background-color: var(--header-and-footer-text-color);
     color: var(--primary-color);
 }
+
+svg{
+    width: 40px;
+}
+
+
