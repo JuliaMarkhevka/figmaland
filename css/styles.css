@@ -15,6 +15,7 @@
     --primary-color: #2091F9;
     --text-color: #252b42;
     --second-text-color: #374754;
+    --input-text-color: #18171D;
 }
 
 img {
@@ -34,6 +35,16 @@ a {
     background-image: url('../img/header-background.png');
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header-social{
+    display: flex;
+}
+
 .navbar-link {
     color: var(--header-and-footer-text-color);
     font-size: 15px;
@@ -50,6 +61,13 @@ a {
 .header-social-link {
     display: block;
     width: 40px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
 }
 
 .header-h1 {
@@ -74,6 +92,8 @@ a {
     color: var(--header-and-footer-text-color);
     padding: 16px 62px;
     border-radius: 35px;
+    width: 236px;
+    height: 20px;
 }
 
 h2 {
@@ -132,7 +152,9 @@ h3 {
 }
 
 input::placeholder {
-    color: var(--text-color);
+    color: var(--input-text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
 }
 
 .submit-button {
@@ -213,12 +235,12 @@ input::placeholder {
     background-color: var(--primary-color);
 }
 
-.pricing{
+.pricing {
     background-color: #374754;
 }
 
 .pricing-h2,
-.pricing-description{
+.pricing-description {
     color: var(--header-and-footer-text-color);
 }
 
@@ -282,22 +304,131 @@ input::placeholder {
     background-color: var(--primary-color);
 }
 
-.free-order-link, .business-order-link {
+.free-order-link,
+.business-order-link {
     color: var(--header-and-footer-text-color);
 }
 
-.standard-pricing{
+.standard-pricing {
     padding: 83px 40px;
     background-color: var(--primary-color);
 }
 
-.standard-order-link{
+.standard-order-link {
     background-color: var(--header-and-footer-text-color);
     color: var(--primary-color);
 }
 
-svg{
+svg {
     width: 40px;
 }
 
+.contacts-title {
+    color: var(--text-color);
+}
 
+.footer {
+    background-color: #252B42;
+    color: var(--header-and-footer-text-color);
+}
+
+.contacts-description {
+    color: var(--second-text-color);
+}
+
+.contact-form {
+    padding: 52px 50px;
+    border-radius: 20px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.contact-input {
+    padding: 19px 20px;
+    border-radius: 39px;
+    border: 1px solid #E8E8E8;
+    background: #F5F5F5;
+}
+
+textarea::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: var(--input-text-color);
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+.footer-h3 {
+    color: var(--header-and-footer-text-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: var(--header-and-footer-text-color);
+}
+
+.footer-location,
+.footer-phone {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+}
+
+footer svg {
+    width: 40px;
+}
+
+@media (max-width: 420px) {
+
+    .navigation-links, .header-social {
+        display: none;
+    }
+
+    .header-logo {
+        margin: 10px;
+    }
+
+    .header-h1 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: 0.2px;
+    }
+
+    .header-h4 {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+    }
+
+    .main-link {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }  
+    
+}
