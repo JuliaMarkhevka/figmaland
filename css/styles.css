@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'graphikgompact-regular-trial';
+    src: url('../fonts/GraphikCompact-Regular-Trial.otf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --header-and-footer-text-color: #FFF;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    font-family: 'graphikgompact-regular-trial';
+}
+
+.header {
+    background-image: url("../img/header/background.png";
+}
+
+.navbar-link{
+    color: var(--header-and-footer-text-color);
+    font-size: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px; 
+}
