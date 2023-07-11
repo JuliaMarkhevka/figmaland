@@ -31,45 +31,7 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 420px) {
 
-    .navigation-links,
-    .header-social {
-        display: none;
-    }
-
-    .header {
-        height: 850px;
-        background-position: 50%;
-    }
-
-    .header-h1 {
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 55px;
-        letter-spacing: 0.2px;
-    }
-
-    .items_row {
-        flex-direction: column;
-    }
-
-    .features-content {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .hero_light_4 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero_light_4-img {
-        
-    }
-}
 
 .header {
     background-image: url('../img/header-background.png');
@@ -204,22 +166,63 @@ h3 {
 .hero_light_4 {
     display: flex;
     flex-direction: row;
-}
-
-.hero_light_4-text-column {    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .hero_light_4-img {
     width: 624px;
 }
 
+.subscribe-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.subscribe-row-text-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .subscribe-img {
     width: 678px;
+}
+
+/*.subscribe-link-sub-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.subscribe-link-title{
+    font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 55px;
+letter-spacing: 0.2px;
+}*/
+.subscribe-link-action {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.subscribe-link-description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.subscribe-action-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .email-area {
@@ -243,10 +246,38 @@ input::placeholder {
     padding: 19px 38px;
 }
 
-.partners-description {
+.partners {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 80px 0px;
+}
+
+.title-partners,
+.partners-text {
+    padding: 10px;
+}
+
+.partners-text {
+    width: 532px;
+}
+
+.partners-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-description {
+    text-align: center;
 }
 
 .partners-text {
@@ -258,12 +289,35 @@ input::placeholder {
 }
 
 .partner-logo-box {
-    padding: 32px 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: 1px solid #D8D8D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.google-name {
+    padding-top: 31px;
+}
+
+.amazon-name {
+    padding-top: 32px;
+}
+
+.microsoft-name,
+.uber-name {
+    padding-top: 25px;
+}
+
+.dropbox-name {
+    padding-top: 40px;
+}
+
 
 .partner-logo-img {
     width: 193px;
+    padding-top: 15px;
 }
 
 .partner-name {
@@ -272,6 +326,13 @@ input::placeholder {
     line-height: 23px;
     letter-spacing: 0.1px;
     color: var(--second-text-color);
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .testimonials-logo {
@@ -284,6 +345,16 @@ input::placeholder {
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0.2px;
+}
+
+.user-testimonial {
+    display: flex;
+    flex-direction: row;
+}
+
+.users-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .users_photo {
@@ -480,4 +551,84 @@ textarea::placeholder {
 
 footer svg {
     width: 40px;
+}
+
+@media (max-width: 420px) {
+
+    .header-logo{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .navigation-links,
+    .header-social-link {
+        display: none;
+    }
+
+    .header {
+        height: 850px;
+        background-position: 50%;
+    }
+
+    .header-h1 {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: 0.2px;
+    }
+
+    .items_row {
+        flex-direction: column;
+    }
+
+    .features-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero_light_4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero_light_4-img {}
+
+    .subscribe-img {
+        width: 389px;
+    }
+
+    .subscribe-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .subscribe-text,
+    .subscribe-action-text {
+        text-align: center;
+    }
+
+    .partners-img {
+        flex-direction: column;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        width: 273px;
+        gap: 30px;
+    }
+
+    .no-in-responce {
+        display: none;
+    }
+
+    .partner-logo-box {
+    }
+
 }
